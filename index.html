@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- Stylesheet Reset -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" integrity="sha512-IJEbgDEF7OeKJRa0MY2PApnyJHRIsgzCveek4ec8VWQ+7KG3ZSKVNYa5xP/Gh0hVP0Mwb+gBsk+GwR3JQGhQNg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="/assets/css/style.css">
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500&family=Quicksand:wght@300;400;600&display=swap" rel="stylesheet">
+
+        <script defer src="/node_modules/swup/dist/swup.js"></script>  
+
+        <script defer src="/assets/js/swup.js"></script>
+
+    <title>My Moments</title>
+</head>
+<body>
+
+        <!-- Begin Navigation Control -->
+        <nav id="navigation-controller" class="navigation-wrapper deep__border">
+            <!-- Relationships Button -->
+            <div id="relationships-button" class="round-btn">
+                <a href="./pages/relationships.html"><i id="relationships-icon" class="fa-regular fa-heart"></i></a>
+            </div>
+
+            <!-- Moments Button -->
+            <div id="moments-button" class="round-btn">
+                <a href="./pages/moments.html"><i class="fa-regular fa-image"></i></a>
+            </div>
+
+            <!-- Home Button -->
+            <div id="home-button" class="round-btn round-btn--home">
+                <a href="./index.html"><i class="fa-solid fa-house-chimney"></i>
+            </div>
+            
+            <!-- People Button -->
+            <div id="people-button" class="round-btn">
+                <a href="/people.html"><i class="fa-regular fa-user"></i></a>
+            </div>
+
+            <!-- Notification Button -->
+            <div id="notification-button" class="round-btn">
+                <a href="./pages/notifications.html"><i class="fa-regular fa-bell"></i></a>
+            </div>
+        </nav>
+        <!-- End Navigation Control -->
+
+        <!-- Begin Application Header -->
+        <div id="page-header" class="application-header">
+            <h1 id="application-title-header" class="application-header__h1">
+                Magic Moments®
+            </h1>
+        </div>
+        <!-- End Application Header-->
+
+        <!-- Begin Dashboard Page Wrapper -->
+        <div id="dashboard-wrapper" class="page-wrapper">
+
+            <!-- Begin User Home Hero Section -->
+            <section id="user-hero" class="user-hero">
+                <div id="user-hero-tint" class="user-hero--tinting"></div>
+                <!-- Begin User Information Section-->
+                <section id="user-information" class="user-information-wrapper">
+                    <h1 id="username-header" class="user-information-wrapper__header">
+                        Peggy Harsh
+                    </h1>
+                    <h2 id="userslug-name" class="user-information-wrapper_slug">
+                        @peggy.harsh
+                    </h2>
+                </section>
+                <!-- End User Information Section -->
+            </section>
+            <!-- End User Home Hero Section -->
+
+            <!-- Begin User Dashboard Section -->
+            <main id="swup" class="user-dashboard-wrapper transition-fade">
+                
+                <h1 class="generic-header center-text">Dashboard</h1>
+                <!-- Begin Stat Container -->
+                <div id="stat-container" class="status-container">
+                    <div id="total-relationships" class="status-container__card small__border">
+                        <h1 id="total-count-relationships" class="status-container__card__header">4</h1>
+                        <h2 id="total-count-relationships-title" class="status-container__card__subheader">Relations</h2>
+                    </div>
+                    <div id="total-moments" class="status-container__card small__border">
+                        <h1 id="total-count-moments" class="status-container__card__header">24</h1>
+                        <h2 id="total-count-moments-title" class="status-container__card__subheader">Moments</h2>
+                    </div>
+                    <div id="total-relationships" class="status-container__card small__border">
+                        <h1 id="total-count-people" class="status-container__card__header">9</h1>
+                        <h2 id="total-count-people-title" class="status-container__card__subheader">People</h2>
+                    </div>
+                    
+                </div>
+                <!-- End Stat Container -->
+                
+                
+            </main>
+            <!-- End User Dashboard Section -->
+        </div>
+</body>
+</html>
