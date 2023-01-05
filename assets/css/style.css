@@ -3,7 +3,7 @@
 }
 
 :root {
-    --dark-background: #180A0A;
+    --dark-background: #090C02;
     --dark-light-background: #242424;
     --dark-secondary: #72757e;
     --accent-purple: #711A75;
@@ -39,7 +39,7 @@ body {
 
 .user-information-wrapper__header {
     font-weight: 500;
-    font-size: 2em;
+    font-size: 1.6em;
     text-shadow: 0px 0px 8px rgba(255,255,255,0.8);
 }
 
@@ -56,7 +56,7 @@ body {
 
 .status-container__card__subheader {
     margin-top: 0.4rem;
-    color: var(--accent-purple);
+    color: var(--text-bright);
     font-size: 0.74em;
     letter-spacing: 0.06rem;
     text-transform: uppercase;
@@ -133,44 +133,45 @@ body {
 
 .user-hero {
     position: relative;
-
-    height: 20vh;
+    height: 40vh;
     width: 100%;
     margin: 0 auto;
 
-    background-image: var(--generic-background);
+    min-height: 40px;
+
+    background-image: var(--generic-image);
 	background-repeat: no-repeat;
 	background-position: center center;
     background-size: cover;
-
-    min-height: 40px;
+    filter: blur(6px) brightness(60%);
 
     z-index: -10;
 }
 
 .user-information-wrapper {
-    height: 96%;
 
     position: absolute;
-    top: 0;
-    left: 0;
-
+    top: 18,3tyem;
+    left: 0rem;
+    width: 100%;
+    height: inherit;
+    text-align: center;
     border-radius: inherit;
 
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: start;
     gap: 0.4rem;
     padding: 1rem;
-    padding-bottom: 2.6rem;
 }
 
 .image-wrapper {
-    height: 8rem;
-    width: 8rem;
+    margin-top: 4rem;
+    height: 12rem;
+    width:  12rem;
 
     position: absolute;
-    top: 2rem;
+    top: 0;
     left: 50%;
 	transform: translateX(-50%);
 
@@ -178,7 +179,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    border: 4px solid var(--accent-purple);
+    border: 2px solid var(--accent-purple);
 
     border-radius: 50%;
 }
@@ -186,6 +187,8 @@ body {
 .user-dashboard-wrapper {
     width: 100%;
     padding: 2rem 1rem;
+
+    margin-top: 24rem;
 
     border-radius: var(--border-radius-medium);
 
@@ -338,8 +341,8 @@ body {
 	background-position: center center;
     background-size: cover;
 
-    width: 90%;
-    height: 90%;
+    width: 98%;
+    height: 98%;
 
-    border-radius: 50%;
+    border-radius: inherit;
   }
