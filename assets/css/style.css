@@ -138,8 +138,6 @@ body {
     margin: 0 auto;
 
     min-height: 40px;
-
-    background-image: var(--generic-image);
 	background-repeat: no-repeat;
 	background-position: center center;
     background-size: cover;
