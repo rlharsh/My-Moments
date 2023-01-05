@@ -23,8 +23,8 @@
 
 
     --light-theme-base-color: #f9f9f9;
-    --light-theme-secondary-color: #e6e6e6;
-    --light-theme-div-secondary-color: #808080;
+    --light-theme-secondary-color: #f2f2f2;
+    --light-theme-div-secondary-color: #a6a6a6;
     --light-theme-button-1-base-color: #ffcce4;
     --light-theme-button-2-base-color: #d6f5e2;
     --light-theme-button-3-base-color: #cfedfc;
@@ -35,18 +35,18 @@
     --light-theme-button-4-accent-color: #c374f1;
     --light-theme-text-color: #333;
 
-    --dark-theme-base-color: #1a1a1a;
-    --dark-theme-secondary-color: #4d4d4d;
-    --dark-theme-div-secondary-color: #999;
-    --dark-theme-button-1-base-color: #cc005f;
-    --dark-theme-button-2-base-color: #27a557;
-    --dark-theme-button-3-base-color: #0d84bf;
-    --dark-theme-button-4-base-color: #7c12ba;
-    --dark-theme-button-1-accent-color: #ff99c9;
-    --dark-theme-button-2-accent-color: #acecc5;
-    --dark-theme-button-3-accent-color: #a0dbf8;
-    --dark-theme-button-4-accent-color: #d7a2f6;
-    --dark-theme-text-color: #e6e6e6;
+    --dark-theme-base-color: #0e0911;
+    --dark-theme-secondary-color: #1c1221;
+    --dark-theme-div-secondary-color: #a37bb7;
+    --dark-theme-button-1-base-color: #4D4352;
+    --dark-theme-button-2-base-color: #385E59;
+    --dark-theme-button-3-base-color: #07302C;
+    --dark-theme-button-4-base-color: #572E4A;
+    --dark-theme-button-1-accent-color: #9c8fa3;
+    --dark-theme-button-2-accent-color: #80b3ac;
+    --dark-theme-button-3-accent-color: #19b3a3;
+    --dark-theme-button-4-accent-color: #b979a5;
+    --dark-theme-text-color: #b99bca;
 }
 
 body {
@@ -56,6 +56,10 @@ body {
 }
 
 /* Typography */
+.accent-text {
+    color: var(--light-theme-button-1-accent-color)
+}
+
 .application-header__h1 {
     font-size: 1em;
     font-weight: 500;
@@ -70,8 +74,8 @@ body {
 
 .status-container__card__header {
     color: var(--light-theme-button-1-accent-color);
-    font-size: 1.8rem;
-    font-weight: 500;
+    font-size: 2.4em;
+    font-weight: 800;
 }
 
 .status-container__card__subheader {
@@ -83,7 +87,6 @@ body {
 }
 
 .generic-header {
-    margin-top: 2rem;
     color: var(--light-theme-text-color);
     font-weight: 500;
     font-size: 1em;
@@ -91,7 +94,6 @@ body {
     padding-bottom: 1rem;
     letter-spacing: 0.4rem;
     text-transform: uppercase;
-    margin-bottom: 1rem;
 }
 
 .person-card__person-name {
@@ -366,5 +368,5 @@ body {
     left: 50%;
 	transform: translateX(-50%);
     
-    color: #ff66ad10;
+    color: #ff66ad20;
   }
