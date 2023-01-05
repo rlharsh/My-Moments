@@ -115,6 +115,7 @@ body {
 /* Containers */
 .header-container {
     display: flex;
+    align-items: center;
     margin-top: 2rem;
     justify-content: space-around;
     width: 100%;
@@ -185,8 +186,8 @@ body {
 }
 
 .image-wrapper {
-    height: 4rem;
-    width:  4rem;
+    height: 6rem;
+    width:  6rem;
 
     display: flex;
     justify-content: center;
