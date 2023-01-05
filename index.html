@@ -27,36 +27,66 @@
 <body>
 
 
+        <!-- Begin Navigation Control -->
+        <nav id="navigation-controller" class="navigation-wrapper deep__border">
+            <!-- Relationships Button -->
+            <div id="relationships-button" class="round-btn">
+                <a href="./pages/relationships.html"><i id="relationships-icon" class="fa-regular fa-heart"></i></a>
+            </div>
 
+            <!-- Moments Button -->
+            <div id="moments-button" class="round-btn">
+                <a href="./pages/moments.html"><i class="fa-regular fa-image"></i></a>
+            </div>
+
+            <!-- Home Button -->
+            <div id="home-button" class="round-btn round-btn--home">
+                <a href="./index.html"><i class="fa-solid fa-house-chimney"></i>
+            </div>
+            
+            <!-- People Button -->
+            <div id="people-button" class="round-btn">
+                <a href="/people.html"><i class="fa-regular fa-user"></i></a>
+            </div>
+
+            <!-- Notification Button -->
+            <div id="notification-button" class="round-btn">
+                <a href="./pages/notifications.html"><i class="fa-regular fa-bell"></i></a>
+            </div>
+        </nav>
+        <!-- End Navigation Control -->
+    
+
+    
         <!-- Begin Application Header -->
-        <!--
+        
         <div id="page-header" class="application-header">
             <h1 id="application-title-header" class="application-header__h1">
                 Magic Moments®
             </h1>
         </div>
-        -->
         <!-- End Application Header-->
 
         <!-- Begin Dashboard Page Wrapper -->
         <div id="dashboard-wrapper" class="page-wrapper">
 
-            <!-- Begin User Picture Header -->
-            <div id="image-wrapper" class="image-wrapper">
-                <div id="user-wrapper-image" class="image-wrapper__image"></div>
-            </div>
+            <!-- Begin Header Wrapper -->
+            <section id="header-wrapper" class="header-container">
 
-            <!-- Begin User Information Section-->
-            <section id="user-information" class="user-information-wrapper">
-                <h1 id="username-header" class="user-information-wrapper__header">
-                    Welcome, Peggy Harsh
-                </h1>
-            </section>
-            <!-- End User Information Section -->
+                <!-- Begin User Information Section-->
+                <section id="user-information" class="user-information-wrapper">
+                    <h1 id="username-header" class="user-information-wrapper__header">
+                        Hello, <br>Peggy Harsh 👋
+                    </h1>
+                </section>
+                <!-- End User Information Section -->
 
-            <!-- Begin User Home Hero Section -->
-            <div id="user-hero" class="user-hero"></div>
-            <!-- End User Home Hero Section -->
+                <!-- Begin User Picture Header -->
+                <div id="image-wrapper" class="image-wrapper">
+                    <div id="user-wrapper-image" class="image-wrapper__image"></div>
+                </div>
+                </section>
+            <!-- End Header Wrapper -->
 
             <!-- Begin User Dashboard Section -->
             <main id="swup" class="user-dashboard-wrapper transition-fade">
@@ -65,14 +95,23 @@
                 <!-- Begin Stat Container -->
                 <div id="stat-container" class="status-container">
                     <div id="total-relationships" class="status-container__card small__border">
+                        <div id="total-relationship-icon" class="status-container__card__icon">
+                            <i id="relationships-icon" class="fa-regular fa-heart"></i>
+                        </div>
                         <h1 id="total-count-relationships" class="status-container__card__header">4</h1>
                         <h2 id="total-count-relationships-title" class="status-container__card__subheader">Relations</h2>
                     </div>
                     <div id="total-moments" class="status-container__card small__border">
+                        <div id="total-relationship-icon" class="status-container__card__icon">
+                            <i class="fa-regular fa-image"></i>
+                        </div>
                         <h1 id="total-count-moments" class="status-container__card__header">24</h1>
                         <h2 id="total-count-moments-title" class="status-container__card__subheader">Moments</h2>
                     </div>
                     <div id="total-relationships" class="status-container__card small__border">
+                        <div id="total-relationship-icon" class="status-container__card__icon">
+                            <i class="fa-regular fa-user"></i>
+                        </div>
                         <h1 id="total-count-people" class="status-container__card__header">9</h1>
                         <h2 id="total-count-people-title" class="status-container__card__subheader">People</h2>
                     </div>
