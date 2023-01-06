@@ -212,7 +212,7 @@ body {
 .user-dashboard-wrapper {
     width: 90%;
     margin: 0 auto;
-    
+
     z-index: 4;
 }
 
@@ -400,7 +400,6 @@ html.is-leaving .transition-fade {
     width: 2.4rem;
     height: 2.4rem;
     border-radius: 50%;
-    background-color: var(--light-theme-button-1-base-color);
     color: var(--light-theme-button-1-accent-color);
 
     display: flex;
@@ -492,4 +491,14 @@ input:checked + .slider:before {
 
 .button--dashboard {
     width: 100%;
+}
+
+.settings-row__icon--dark {
+    background-color: var(--light-theme-button-4-base-color);
+    color: var(--light-theme-button-4-accent-color);
+}
+
+.settings-row__icon--heart {
+    background-color: var(--light-theme-button-1-base-color);
+    color: var(--light-theme-button-1-accent-color);
 }
