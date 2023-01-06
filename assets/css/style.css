@@ -21,7 +21,7 @@
     --generic-image: url('/assets/images/interface/avatars/avatar_three.jpg');
     --generic-background: url('/assets/images/backgrounds/bwb3.jpg');
 
-    --shadow: box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    --shadow: box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
     --gentle-grey: #F5F5F7;
 
@@ -155,7 +155,7 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     z-index: 100;
 }
 
@@ -237,7 +237,7 @@ body {
     overflow: hidden;
 
     background-color: var(--gentle-grey);
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .generic-div {
@@ -451,7 +451,7 @@ input:checked + .slider {
 }
   
 input:focus + .slider {
-    box-shadow: 0 0 1px var(--light-theme-button-1-base-color);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
   
 input:checked + .slider:before {
@@ -468,7 +468,7 @@ input:checked + .slider:before {
   
 .slider.round:before {
     border-radius: 50%;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .settings-row__header {
