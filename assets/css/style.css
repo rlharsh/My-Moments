@@ -18,7 +18,7 @@
 
     --border: 1px solid var(--text-bright);
 
-    --generic-image: url('/assets/images/interface/avatars/avatar_three.jpg');
+    --generic-image: url('/assets/images/interface/avatars/default_avatar_two.JPG');
     --generic-background: url('/assets/images/backgrounds/bwb3.jpg');
 
     --shadow: box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -72,7 +72,7 @@ body {
 
 .user-information-wrapper__header {
     font-weight: 100;
-    font-size: 8.5vw;
+    font-size: clamp(16px, 8.5vw, 64px);
 }
 
 .name-wrapper{
@@ -148,6 +148,7 @@ body {
 
 .page-wrapper {
     width: 100%;
+    max-width: 1024px;
     margin: 0 auto;
     overflow: hidden;
     display: flex;
@@ -157,6 +158,7 @@ body {
 
 .navigation-wrapper {
     width: 92%;
+    max-width: 1024px;
     height: 3rem;
     position: fixed;
     bottom: 2rem;
@@ -168,9 +170,9 @@ body {
     align-items: center;
     z-index: 100;
 
-    border: var(--border-radius-deep);
     transform: translateX(-50%);
     background-color: var(--gentle-grey);
+    border-radius: var(--border-radius-small);
 }
 
 .application-header {
@@ -228,7 +230,6 @@ body {
     width: 100%;
     margin: 0 auto;
     padding: 0 16px;
-1
     z-index: 4;
 }
 
@@ -315,17 +316,6 @@ body {
 
 .round-btn--home > a {
     color: var(--text-bright);
-}
-
-.user-hero--tinting {
-    width: 100%;
-    height: inherit;
-
-
-    border-radius: inherit;
-
-    background: rgb(31,31,31);
-    background: linear-gradient(0deg, #180A0A 20%, rgba(28,28,28,0.6993172268907564) 55%, rgba(18,18,18,0.4023984593837535) 78%, rgba(28,28,28,0) 100%);
 }
 
 .transition-fade {
