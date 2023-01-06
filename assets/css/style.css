@@ -137,11 +137,11 @@ body {
 
 .header-container {
     display: grid;
-    grid-template-columns: 80% 20%;
+    grid-template-columns: 70% 30%;
     align-items: center;
     margin: 2rem auto;
     justify-content: space-evenly;
-    width: 90%;
+    width: 100%;
     max-width: 90%;
     min-width: 90%;
 }
@@ -208,14 +208,13 @@ body {
 .user-information-wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
     gap: 0.4rem;
     margin-bottom: 1rem;
 }
 
 .image-wrapper {
-    height: 4rem;
-    width:  4rem;
+    height: 6rem;
+    width:  6rem;
 
     display: flex;
     justify-content: center;
