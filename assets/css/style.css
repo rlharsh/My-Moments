@@ -528,8 +528,8 @@ input:checked + .slider:before {
 }
 
 .settings-row__icon--calendar {
-    background-color: var(--light-theme-button-1-base-color);
-    color: var(--light-theme-button-1-accent-color);
+    background-color: #ffd5cc;
+    color: #ff8266;
 }
 
 .settings-row__icon--bell {
