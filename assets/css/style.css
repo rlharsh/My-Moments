@@ -18,7 +18,7 @@
 
     --border: 1px solid var(--text-bright);
 
-    --generic-image: url('/assets/images/interface/avatars/default_avatar_two.JPG');
+    --generic-image: url('/assets/images/interface/avatars/avatar_three.jpg');
     --generic-background: url('/assets/images/backgrounds/bwb3.jpg');
 
     --shadow: box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
@@ -71,8 +71,12 @@ body {
 }
 
 .user-information-wrapper__header {
-    font-weight: 500;
-    font-size: 8.5vw;
+    font-weight: 100;
+    font-size: 10.5vw;
+}
+
+.name-wrapper{
+    width: 100%;
 }
 
 .status-container__card__header {
@@ -119,11 +123,14 @@ body {
 
 /* Containers */
 .header-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 80% 20%;
     align-items: center;
-    margin-top: 2rem;
-    justify-content: space-around;
-    width: 100%;
+    margin: 2rem auto;
+    justify-content: space-evenly;
+    width: 90%;
+    max-width: 90%;
+    min-width: 90%;
 }
 
 .page-wrapper {
@@ -186,7 +193,7 @@ body {
 .user-information-wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: flex-end;
     gap: 0.4rem;
     margin-bottom: 1rem;
 }
@@ -203,10 +210,9 @@ body {
 }
 
 .user-dashboard-wrapper {
-    width: 100%;
-    padding: 2rem 1rem;
-
-    background-color: var(--light-theme-base-color);
+    width: 90%;
+    margin: 0 auto;
+    
     z-index: 4;
 }
 

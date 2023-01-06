@@ -16,8 +16,8 @@
         <!-- Google Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500&family=Quicksand:wght@300;400;600;800;900&display=swap" rel="stylesheet">
-
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500&family=Quicksand:wght@300;400;600&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+        
         <script defer src="/node_modules/swup/dist/swup.js"></script>  
 
         <script defer src="/assets/js/swup.js"></script>
@@ -25,7 +25,6 @@
     <title>My Moments</title>
 </head>
 <body>
-
 
         <!-- Begin Navigation Control -->
         <nav id="navigation-controller" class="navigation-wrapper deep__border">
@@ -73,7 +72,9 @@
                 <!-- Begin User Information Section-->
                 <section id="user-information" class="user-information-wrapper">
                     <h1 id="username-header" class="user-information-wrapper__header">
-                        Hello, <br>Peggy Harsh
+                        <div class="name-wrapper">
+                            Hello, <br>Peggy Harsh
+                        </div>
                     </h1>
                 </section>
                 <!-- End User Information Section -->
@@ -130,6 +131,23 @@
                         </div>
                         <div class="settings-row__header">
                             Show Notifications
+                        </div>
+                        <div class="settings-row__control">
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <!-- End User Container Row -->
+
+                    <!-- User Container Row Start -->
+                    <div id="user-settings-row" class="settings-row">
+                        <div class="settings-row__icon">
+                            <i class="fa-regular fa-moon"></i>
+                        </div>
+                        <div class="settings-row__header">
+                            Dark Mode
                         </div>
                         <div class="settings-row__control">
                             <label class="switch">
