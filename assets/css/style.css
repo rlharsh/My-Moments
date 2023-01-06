@@ -139,6 +139,7 @@ body {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    margin-bottom: 8rem;
 }
 
 .navigation-wrapper {
@@ -210,6 +211,7 @@ body {
 }
 
 .user-dashboard-wrapper {
+    position: relative;
     width: 90%;
     margin: 0 auto;
 
@@ -503,3 +505,13 @@ input:checked + .slider:before {
     color: var(--light-theme-button-1-accent-color);
 }
 
+.dashboard-button {
+    width: 4rem;
+    height: 3rem;
+
+    border: none;
+    background-color: var(--gentle-grey);
+    border-radius: var(--border-radius-small);
+
+    color: var(--light-theme-button-1-accent-color);
+}
