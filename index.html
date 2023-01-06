@@ -39,9 +39,9 @@
                 <a href="./pages/moments.html"><i class="fa-regular fa-image"></i></a>
             </div>
 
-            <!-- Home Button -->
-            <div id="home-button" class="round-btn round-btn--home">
-                <a href="./index.html"><i class="fa-solid fa-house-chimney"></i>
+            <!-- Moments Button -->
+            <div id="moments-button" class="round-btn round-btn--home">
+                <a href="./pages/moments.html"><i class="fa-solid fa-house"></i></a>
             </div>
             
             <!-- People Button -->
@@ -59,7 +59,7 @@
         <!-- Begin Application Header -->
         <div id="page-header" class="application-header">
             <h1 id="application-title-header" class="application-header__h1">
-                Magic Moments®
+                <span class="accent-text">M</span>agic <span class="accent-text">M</span>oments®
             </h1>
         </div>
         <!-- End Application Header-->
@@ -125,9 +125,25 @@
 
                     <!-- User Container Row Start -->
                     <div id="user-settings-row" class="settings-row">
-                        
+                        <div class="settings-row__icon">
+                            <i id="relationships-icon" class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="settings-row__header">
+                            Show Notifications
+                        </div>
+                        <div class="settings-row__control">
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
                     </div>
                     <!-- End User Container Row -->
+
+                    <button id="refresh-data" class="button button--dashboard">
+                        Refresh Data
+                    </button>
+                    
                 </section>
                 
             </main>
