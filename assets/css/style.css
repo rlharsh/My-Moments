@@ -502,3 +502,4 @@ input:checked + .slider:before {
     background-color: var(--light-theme-button-1-base-color);
     color: var(--light-theme-button-1-accent-color);
 }
+
