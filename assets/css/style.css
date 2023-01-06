@@ -504,6 +504,26 @@ input:checked + .slider:before {
     color: var(--light-theme-button-1-accent-color);
 }
 
+.settings-row__icon--moment {
+    background-color: var(--light-theme-button-2-base-color);
+    color: var(--light-theme-button-2-accent-color);
+}
+
+.settings-row__icon--user {
+    background-color: var(--light-theme-button-3-base-color);
+    color: var(--light-theme-button-3-accent-color);
+}
+
+.settings-row__icon--calendar {
+    background-color: var(--light-theme-button-1-base-color);
+    color: var(--light-theme-button-1-accent-color);
+}
+
+.settings-row__icon--bell {
+    background-color: rgb(255, 250, 219);
+    color: rgb(255, 217, 0);
+}
+
 .dashboard-button {
     width: 2rem;
     height: 2rem;
