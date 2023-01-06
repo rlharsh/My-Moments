@@ -72,7 +72,7 @@ body {
 
 .user-information-wrapper__header {
     font-weight: 100;
-    font-size: 10.5vw;
+    font-size: 8.5vw;
 }
 
 .name-wrapper{
@@ -259,7 +259,7 @@ body {
     padding: 0;
     justify-content: space-around;
     align-items: center;
-    margin-top: 2rem;
+    margin-top: 1.4rem;
 }
 
 /* Controls */
@@ -512,6 +512,8 @@ input:checked + .slider:before {
     border: none;
     background-color: var(--gentle-grey);
     border-radius: var(--border-radius-small);
+
+    font-weight: 100;
 
     color: var(--light-theme-button-1-accent-color);
 }
