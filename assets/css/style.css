@@ -147,7 +147,7 @@ body {
 }
 
 .page-wrapper {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     overflow: hidden;
     display: flex;
@@ -225,8 +225,9 @@ body {
 
 .user-dashboard-wrapper {
     position: relative;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
+    padding: 0 16px;
 
     z-index: 4;
 }
