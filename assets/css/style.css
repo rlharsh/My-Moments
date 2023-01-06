@@ -519,3 +519,8 @@ input:checked + .slider:before {
 
     color: var(--light-theme-button-1-accent-color);
 }
+
+.settings-row__control {
+    align-items: flex-end;
+    text-align: right;
+}
