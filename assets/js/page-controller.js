@@ -4,11 +4,8 @@ const homeButton = document.querySelector('#home-button');
 const peopleButton = document.querySelector('#people-button');
 const notificationButton = document.querySelector('#notification-button');
 
-const relationshipPage = document.querySelector('#relationship-wrapper');
-const momentsPage = document.querySelector('#moments-wrapper');
 const homePage = document.querySelector('#dashboard-wrapper');
-const peoplePage = document.querySelector('#people-wrapper');
-const notificationPage = document.querySelector('#notification-wrapper');
+const peoplePage = document.querySelector('#people-container');
 
 let activePage = homePage;
 
