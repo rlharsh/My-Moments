@@ -169,7 +169,7 @@ body {
     background-color: var(--light-theme-base-color);
     z-index: 5;
 
-    transition: all 0.2s;
+    transition: all 0.1s;
 }
 
 .user-card {
