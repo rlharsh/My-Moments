@@ -155,7 +155,6 @@ body {
     gap: 1rem;
     flex-direction: column;
     height: 100vh;
-    background-color: green;
 }
 
 .floating-container {
