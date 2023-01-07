@@ -346,7 +346,7 @@ body {
 
     background-image: var(--generic-image);
 	background-repeat: no-repeat;
-	background-position: center center;
+	background-position: 50% 50%;
     background-size: cover;
 }
 
