@@ -50,6 +50,8 @@
     --dark-theme-button-3-accent-color: #19b3a3;
     --dark-theme-button-4-accent-color: #b979a5;
     --dark-theme-text-color: #b99bca;
+
+    --text-grey: rgb(140, 140, 140);
 }
 
 body {
@@ -65,6 +67,7 @@ body {
 
 .user-card__subheader {
     font-size: 0.8rem;
+    color: var(--text-grey);
 }
 
 .accent-text {
