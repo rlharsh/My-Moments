@@ -642,4 +642,8 @@ input:checked + .slider:before {
 .user-card__button {
     border: none;
     background-color: var(--light-theme-base-color);
+
+    height: 100%;
+    
+    font-weight: 900;
 }
