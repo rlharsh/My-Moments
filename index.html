@@ -257,5 +257,30 @@
 
         <script src="/assets/js/page-controller.js"></script>
 
+
+        <script type="module">
+            // Import the functions you need from the SDKs you need
+            import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js";
+            import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-analytics.js";
+            // TODO: Add SDKs for Firebase products that you want to use
+            // https://firebase.google.com/docs/web/setup#available-libraries
+          
+            // Your web app's Firebase configuration
+            // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+            const firebaseConfig = {
+              apiKey: "AIzaSyCWrZ-W2A6WMk0lffYRPnDpyb7cY7eez7Y",
+              authDomain: "magic-moment-a7387.firebaseapp.com",
+              projectId: "magic-moment-a7387",
+              storageBucket: "magic-moment-a7387.appspot.com",
+              messagingSenderId: "726388619232",
+              appId: "1:726388619232:web:1b50ff1ecad5b9e1bfdd85",
+              measurementId: "G-HM19J1J8F9"
+            };
+          
+            // Initialize Firebase
+            const app = initializeApp(firebaseConfig);
+            const analytics = getAnalytics(app);
+          </script>
+
 </body>
 </html>
